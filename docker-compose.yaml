@@ -2,3 +2,5 @@ version: '3'
 services:
   appservice:
    build: .
+   ports :
+    - 80:$PORT
