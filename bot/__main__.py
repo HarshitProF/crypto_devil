@@ -14,13 +14,13 @@ def mesag():
     update=telebot.types.Update.de_json(json_string)
     bot.process_new_updates([update])
     return "!",200
+import os
 load_dotenv()
 
 #admin='741728025'
 chat_id=os.getenv('CHAT_ID',default=None)
 admin=os.getenv('ADMIN_ID',default=None)
 import datetime
-import os
 from urllib.parse import urlparse
 url=str(os.getenv('CLEARDB_DATABASE_URL'))
 if __name__=="__main__":
