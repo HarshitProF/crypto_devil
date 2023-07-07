@@ -1,0 +1,12 @@
+runtime: python
+env: flex
+entrypoint: python -m bot
+runtime_config :
+    operating_system: "ubuntu18"
+    runtime : 3.10.9
+env_variables :
+    'TOKEN': "6160873194:AAFaeBMwUlsFM5WNkEIi1PjIL8AjL0Oj3kA"
+    'CHAT_ID': "-1001633570949"
+    'ADMIN_ID': 1898694701
+    'CLEARDB_DATABASE_URL': "mysql://b409e4bb32c541:17e5e691@us-cdbr-east-06.cleardb.net/heroku_a1789e14876ad68?reconnect=true"
+    'DB': "heroku_a1789e14876ad68"

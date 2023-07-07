@@ -1,0 +1,6 @@
+/venv 
+/handler/__pycache__/
+/models/__pycache__/
+/bot/__pycache__/
+* pyc
+* .pyc
