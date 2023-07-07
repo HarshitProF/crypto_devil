@@ -32,5 +32,5 @@ if __name__=="__main__":
     schedule.add_job(func=tesks.reminder ,kwargs={'bot':bot},trigger='cron',hour='17',minute='50')
     schedule.start()
     print(schedule.get_jobs())
-    app.run(port=80)
+    app.run()
     #bot.infinity_polling(allowed_updates=['message','callback_query','my_chat_member','chat_member'])
